@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <title>Project 3 | Treehouse</title>
+  <meta name="description" content="Project 3 | Treehouse">
+  <meta name="author" content="David M. Bowers III">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!-- base styles -->
+  <link rel="stylesheet" href="css/base.css">
+
+  <!-- form styles -->
+  <link rel="stylesheet" href="css/form.css">
+
+  <!-- desktop styles -->
+  <link rel="stylesheet" href="css/desktop.css">
+
+</head>
+
+<body>
+  <main>
+
+    <header class="main-header">
+      <!-- colored header -->
+      <h1 class="header">The Code Review</h1><br>
+
+      <!-- subheading, text, and button -->
+      <div class="row">
+          <h4 class="subHeader">Signup for our newsletter</h4>
+
+          <p class="primary-text">Get the latest news on how your code is doing right in your inbox.</p>
+
+          <a href="#" class="btn">Signup Now!</a>
+      </div>
+    </header>
+
+    <!-- form container -->
+    <div class="formContainer">
+      <form>
+          <hr>
+          <br>
+
+          <!-- form header -->
+          <h4 class="subHeader" id="formHeader">Contact Information</h4>
+
+          <!-- name -->
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="full_name" placeholder="Please type your full name" required>
+
+            <br>
+
+          <!-- email -->
+          <label for="emailAddress">Email Address:</label><br>
+          <input type="email" id="emailAddress" name="email_address" placeholder="Please type your email address" required>
+
+            <br>
+
+          <!-- phone number -->
+          <label for="phoneNumber">Phone Number:</label><br>
+          <input type="tel" id="phoneNumber" name="phone_number" placeholder="Please type your phone number">
+
+            <br>
+
+            <!-- street address -->
+            <label for="address">Street Address:</label><br>
+            <input type="text" id="address" name="address_" placeholder="Please type your street address">
+
+              <br>
+
+              <!-- city -->
+              <label for="city">City:</label><br>
+              <input type="text" id="city" name="city_" placeholder="Please type your city">
+
+              <br>
+
+            <!-- state -->
+            <label for="state_">State:</label><br>
+            <select name="state" id="state_">
+              <option>Plesae select your state</option>
+              <option value="volvo">SC</option>
+              <option value="saab">NC</option>
+              <option value="fiat">GA</option>
+              <option value="audi">FL</option>
+            </select>
+
+            <br>
+
+            <!-- zip code -->
+            <label for="zipCode" id="zipCodeLabel">Zip Code:</label><br>
+            <input type="text" id="zipCode" name="zip_code" placeholder="Please type your zip code">
+
+            <br>
+
+            <!-- subheader and text -->
+            <hr>
+            <h4 class="subHeader" id="newsletterh4">Newsletter</h4>
+
+            <p class="primary-text">Select the newsletters you would like to recieve</p> <br>
+
+            <!-- news checkbox -->
+            <label class="checkbox" for="html"><input type="checkbox" id="html" value="html_news"> HTML News</label>
+            <br>
+
+
+            <label class="checkbox" for="css"><input type="checkbox" id="css" value="css_news"> CSS News</label><br>
+
+            <label class="checkbox" for="javascript"><input type="checkbox" id="javascript" value="javascript_news"> Javascript News</label><br>
+
+            <!-- format radio buttons -->
+            <p class="primary-text">Newsletter format</p> <br>
+
+            <label class="checkbox" for="html2"><input type="radio" id="html2" value="html_format" >HTML</label><br>
+
+            
+            <label class="checkbox" for="plain"><input type="radio" id="plain" value="plain_text"> Plain Textews</label><br>
+
+            <!-- message -->
+            <label class="primary-text" for="message" id="messageLabel">Other topics you'd like to hear about</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <!-- submit -->
+            <button type="submit" class="btn">Sign Up</button><br>
+
+            <p class="primary-text" id="copyright"><em>Copyright The Code Review</em></p>
+        
+      </form>
+    </div>
+  </main>
+</body>
+</html>

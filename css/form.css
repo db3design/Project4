@@ -1,0 +1,113 @@
+.formContainer {
+    padding: 7.5%;
+    padding-top: 0;
+    margin-top: 0;
+}
+form {
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form > .subHeader {
+    margin-top: 80px;
+}
+form > label, input {
+    flex-grow: 1;
+}
+form label {
+    color: #888;
+    margin-top: 17.5px;
+    margin-bottom: 10px;
+}
+form > input[type="text"] {
+    margin-bottom: 35px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1.5px solid #333333;
+    flex: 1 100%;
+    transition: all 1s;
+}
+form > input[type="text"]:last-of-type {
+    margin-bottom: 50px;
+}
+form > input[type="email"] {
+    margin-bottom: 35px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1.5px solid #333333;
+    flex: 1 100%;
+    transition: all 1s;
+}
+form > input[type="tel"] {
+    margin-bottom: 35px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1.5px solid #333333;
+    flex: 1 100%;
+    transition: all 1s;
+}
+form > select[name="state"] {
+    margin-bottom: 35px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1.5px solid #333333;
+    flex: 1 100%;
+}
+form .checkbox {
+    flex: 1 100%;
+}
+#messageLabel {
+    margin-top: 50px;
+}
+form > textarea {
+    flex: 1 100%;
+    height: 150px;
+    margin-bottom: 25px;
+    resize: none;
+    border: .75px solid #eeeeee;
+    background-color: #eaeaea;
+    border-radius: 2.5px;
+    transition: all 1s;
+}
+form > textarea:focus {
+    outline: none;
+    padding: 8px;
+}
+form > button {
+    flex: 1 100%;
+}
+form > input[type="text"]:focus {
+    padding: 8px;
+    border-bottom: 3px solid #333333;
+    outline-width: 0;
+}
+form > input[type="email"]:focus {
+    padding: 8px;
+    border-bottom: 3px solid #333333;
+    outline-width: 0;
+}
+form > input[type="tel"]:focus {
+    padding: 8px;
+    border-bottom: 3px solid #333333;
+    outline-width: 0;
+}
+form > select[name="state"]:focus {
+    outline-width: 0;
+}
+form > #zipCode {
+    flex: .33 33%;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+form >#zipCodeLabel {
+    flex: 1 100%;
+}
+form > hr {
+    flex: 1 100%;
+    margin: auto;
+}

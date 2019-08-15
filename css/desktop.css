@@ -1,0 +1,32 @@
+@media screen and (min-width:768px) {
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-header > .row {
+        padding: 2.5%;
+        margin-bottom: 0;
+    }
+    .header {
+        padding: 30px;
+        font-size: 2.5em;
+        margin-bottom: 0;
+    } 
+    form {
+        padding: 0 15%;
+        margin-top: 50px;
+    }
+    form > .subHeader {
+        margin-top: 0;
+    }
+    #newsletterh4 {
+        margin-top: 100px;
+    }
+    #formHeader {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
