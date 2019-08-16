@@ -37,28 +37,28 @@
 
           <p class="primary-text">Get the latest news on how your code is doing right in your inbox.</p>
 
-          <a href="#" class="btn">Signup Now!</a>
+          <a href="#formContainer1" class="btn">Signup Now!</a>
       </div>
     </header>
 
     <!-- form container -->
-    <div class="formContainer">
+    <div class="formContainer" id="formContainer1">
       <form>
           <hr>
           <br>
-
+        <fieldset>
           <!-- form header -->
-          <h4 class="subHeader" id="formHeader">Contact Information</h4>
+          <legend><h4 class="subHeader" id="formHeader">Contact Information</h4></legend>
 
           <!-- name -->
           <label for="fullName">Full Name:</label><br>
-          <input type="text" id="fullName" name="full_name" placeholder="Please type your full name" required>
+          <input type="text" id="fullName" name="full_name" placeholder="Required" required>
 
             <br>
 
           <!-- email -->
           <label for="emailAddress">Email Address:</label><br>
-          <input type="email" id="emailAddress" name="email_address" placeholder="Please type your email address" required>
+          <input type="email" id="emailAddress" name="email_address" placeholder="Required" required>
 
             <br>
 
@@ -97,10 +97,12 @@
             <input type="text" id="zipCode" name="zip_code" placeholder="Please type your zip code">
 
             <br>
-
+          </fieldset>
             <!-- subheader and text -->
             <hr>
-            <h4 class="subHeader" id="newsletterh4">Newsletter</h4>
+
+            <fieldset>
+            <legend><h4 class="subHeader" id="newsletterh4">Newsletter</h4></legend>
 
             <p class="primary-text">Select the newsletters you would like to recieve</p> <br>
 
@@ -119,11 +121,13 @@
             <label class="checkbox" for="html2"><input type="radio" id="html2" value="html_format" >HTML</label><br>
 
             
-            <label class="checkbox" for="plain"><input type="radio" id="plain" value="plain_text"> Plain Textews</label><br>
+            <label class="checkbox" for="plain"><input type="radio" id="plain" value="plain_text">Plain Text</label><br>
 
             <!-- message -->
             <label class="primary-text" for="message" id="messageLabel">Other topics you'd like to hear about</label><br>
             <textarea id="message" name="message"></textarea><br>
+
+          </fieldset>
 
             <!-- submit -->
             <button type="submit" class="btn">Sign Up</button><br>
