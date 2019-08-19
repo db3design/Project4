@@ -107,10 +107,6 @@ form input[type="tel"]:focus {
 form select[name="state"]:focus {
     outline-width: 0;
 }
-form #zipCode {
-    flex: .33 33%;
-    margin-right: auto;
-}
 form #zipCodeLabel {
     flex: 1 100%;
 }

@@ -29,4 +29,15 @@
         margin-top: 50px;
         margin-bottom: 25px;
     }
+    label {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    label[class="checkbox"] {
+        display: inline;
+    }
+    textarea {
+        background-color: lightgrey;
+    }
 }
